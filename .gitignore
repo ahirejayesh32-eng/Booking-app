@@ -1,0 +1,37 @@
+﻿# Dependencies
+node_modules/
+server/node_modules/
+
+# Environment variables (SECURITY)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build outputs
+dist/
+build/
+.vite/
+out/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Database & temp files
+*.sqlite
+*.db
+temp/
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
